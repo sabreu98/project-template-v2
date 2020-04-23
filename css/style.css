@@ -1,20 +1,52 @@
-/* Enter your Styles below! */
+/* FONTS
 
-body { 
+font-family: 'Playfair Display', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Cormorant Garamond', serif;
+
+*/
+@font-face {
+font-family: 'Helvetica Neue LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 55 Roman'), url('HelveticaNeueLTStd55Roman_22526.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Helvetica Neue LT Std 53 Extended';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 53 Extended'), url('HelveticaNeueLTStdEx.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Helvetica Neue LT Std 75 Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 75 Bold'), url('HelveticaNeueLTStd75Bold_22539.woff') format('woff');
+}
+
+/* CSS STARTS HERE */
+body {
+    background-color: #F6F2E7;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
      }
 
-h1, h2, h3, h4 {
-    font-family: Helvetica, sans-serif;
+h1 {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 h1 {
-    font-size: 48px;
+    text-align: center;
+    font-size: 90px;
 }
 
 h2 {
+    font-family: 'Helvetica Neue LT Std 53 Extended';
     font-size: 36px;
+
 }
 
 h3 {
@@ -34,7 +66,7 @@ header {margin-bottom: 20px;}
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
-a { 
+a {
     color: red;
     text-decoration: none;
      }

@@ -7,7 +7,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Helvetica Neue LT Std 55 Roman';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Std 55 Roman'), url('HelveticaNeueLTStd55Roman_22526.woff') format('woff');
+src: local('Helvetica Neue LT Std 55 Roman'), url('../fonts/HelveticaNeueLTStd55Roman_22526.woff') format('woff');
 }
 
 
@@ -15,14 +15,14 @@ src: local('Helvetica Neue LT Std 55 Roman'), url('HelveticaNeueLTStd55Roman_225
 font-family: 'Helvetica Neue LT Std 53 Extended';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Std 53 Extended'), url('HelveticaNeueLTStdEx.woff') format('woff');
+src: local('Helvetica Neue LT Std 53 Extended'), url('../fonts/HelveticaNeueLTStdEx.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Helvetica Neue LT Std 75 Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Helvetica Neue LT Std 75 Bold'), url('HelveticaNeueLTStd75Bold_22539.woff') format('woff');
+src: local('Helvetica Neue LT Std 75 Bold'), url('../fonts/HelveticaNeueLTStd75Bold_22539.woff') format('woff');
 }
 
 /* CSS STARTS HERE */

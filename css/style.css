@@ -26,8 +26,9 @@ src: local('Helvetica Neue LT Std 75 Bold'), url('HelveticaNeueLTStd75Bold_22539
 }
 
 /* CSS STARTS HERE */
+
 body {
-  background-color: #0AD699;
+  background-color: black;
 }
 
 #landingVideo {
@@ -100,6 +101,10 @@ body {
   padding-top: 18vw;
 }
 
+
+
+
+
 #marquee {
   text-transform: uppercase;
   font-family: 'Helvetica Neue LT Std 55 Roman';
@@ -112,6 +117,81 @@ body {
   position:sticky;
   position: -webkit-sticky;
   top:0;
+  z-index: 1;
+ }
+
+ .nav {
+   position:sticky;
+   position: -webkit-sticky;
+   top:24px;
+   z-index: 1;
+   margin-left: 861px;
+   margin-top: -15px;
+
+ }
+
+ .navStyle {
+   font-family: 'Helvetica Neue LT Std 53 Extended';
+   font-size: 24px;
+   text-decoration: none;
+   -webkit-text-fill-color: white;
+   padding: 5px;
+
+ }
+
+#sec1 {
+  height:200vh;
+  display: flex;
+}
+
+.sec1sideA {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+}
+
+.introTitle {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -60px;
+}
+
+#introVideo {
+  width: 50vw;
+  margin-top: -76px;
+  display: flex;
+
+  position:sticky;
+  position: -webkit-sticky;
+}
+
+.sec1sideB {
+  width: 50vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0AD699
+}
+
+.sec1sideB div{
+  height:200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #introAT {
@@ -131,6 +211,7 @@ body {
   line-height: 60px;
 }
 
+
 #introPg1 {
   font-family: 'Helvetica Neue LT Std 55 Roman';
   font-size: 24px;
@@ -145,54 +226,150 @@ body {
   line-height: 36px;
 }
 
-.nav{
-  position: fixed;
-  padding: 0px;
-  margin-left:820px;
-  margin-top: -24px;
-}
-
-.navStyle {
-  font-family: 'Helvetica Neue LT Std 53 Extended';
-  font-size: 24px;
-  text-decoration: none;
-  -webkit-text-fill-color: white;
-  padding: 5px;
-}
 
 
-section {
+#sec2 {
+  height:250vh;
   display: flex;
-  flex-direction: row;
 }
 
+.sec2sideA{
+  width: 50vw;
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: left;
+  background-color: #629FFF;
 
-section div {
-  width:50%;
+
 }
 
-section:nth-child(odd){
-  flex-direction: row-reverse;
+.sec2sideB {
+  height:100vh;
+  width: 50vw;
+
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
 }
 
-section div.text{
-  padding: 50px;
-}
-
-section div.full-image {
-  height: 100vh;
-
-  background-image: url("images/hands.png");
-
-  background-size: cover;
+#sec2Image {
+  height:100vh;
+  width: 50vw;
+  background-image: url("https://d.newsweek.com/en/full/1580394/dhauladhar-mountain-range.jpg");
   background-position: center;
+  background-size: cover;
+  opacity: 70%;
 }
 
-section div.image-1 {
-  background-image: url("images/hands.png");
+#sec2Text {
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  margin-top: 40%
+}
+#subheader{
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  text-align: center;
+  -webkit-text-fill-color: white;
+}
 
+#title{
+  font-family: 'Helvetica Neue LT Std 53 Extended';
+  font-size: 36px;
+  text-align: center;
+  -webkit-text-fill-color: white;
+  line-height: 46px;
+  width:70%;
 
 }
+
+#author{
+  font-family: 'Helvetica Neue LT Std 75 Bold';
+  font-size: 18px;
+  text-align: center;
+  color:white;
+
+}
+
+#sec3 {
+  height:150vh;
+  display: flex;
+}
+
+.sec3sideA {
+  height:100vh;
+  width: 50vw;
+  background-image: url("https://d.newsweek.com/en/full/1580394/dhauladhar-mountain-range.jpg");
+  background-position: center;
+  background-size: cover;
+
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+
+}
+.sec3sideB{
+  width: 50vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: #629FFF;
+}
+
+#infoEm {
+  font-family: 'Helvetica Neue LT Std 55 Roman';
+  font-size: 24px;
+  text-align: center;
+  padding-top: 280px;
+  padding-left: 120px;
+  width:70%;
+}
+
+#info {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  text-align: left;
+  line-height: 24px;
+  padding: 55px;
+  padding-top: 50px;
+  width: 87%;
+}
+
+.btn2 {
+  width: 150px;
+  height: 25px;
+  border-radius: 50px;
+  background-color:white;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Helvetica Neue LT Std 55 Roman';
+  -webkit-text-fill-color: black;
+  text-align: center;
+  padding-top: 10px;
+  margin-left:55px;
+}
+
+.btn2:hover {
+  transition: .5s;
+  background-color:#0AD699
+}
+
+.openButton {
+  padding-left: 46vw;
+  padding-top: 18vw;
+}
+
+
+
 @media only screen and (min-width:768px) {
 
 }

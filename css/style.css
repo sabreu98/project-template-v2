@@ -126,21 +126,66 @@ body {
    top:24px;
    z-index: 1;
    margin-left: 861px;
-   margin-top: -15px;
-
+   margin-top: -69px;
  }
 
- .navStyle {
+ .navStyle-1 {
    font-family: 'Helvetica Neue LT Std 53 Extended';
    font-size: 24px;
    text-decoration: none;
-   -webkit-text-fill-color: white;
+   color: white;
    padding: 5px;
+ }
 
+ .navStyle-1:hover {
+   transition: ;
+   font-size: 0px;
+ }
+
+ .navStyle-1:hover:after{
+   transition: .2;
+   content: attr(data-hover);
+   font-size:24px;
+ }
+
+ .navStyle-2 {
+   font-family: 'Helvetica Neue LT Std 53 Extended';
+   font-size: 24px;
+   text-decoration: none;
+   color: white;
+   padding: 5px;
+ }
+
+ .navStyle-2:hover {
+   transition:;
+   font-size: 0px;
+ }
+
+ .navStyle-2:hover:after{
+   content: attr(data-hover);
+   font-size:24px;
+ }
+
+ .navStyle-3 {
+   font-family: 'Helvetica Neue LT Std 53 Extended';
+   font-size: 24px;
+   text-decoration: none;
+   color: white;
+   padding: 5px;
+ }
+
+ .navStyle-3:hover {
+   transition:;
+   font-size: 0px;
+ }
+
+ .navStyle-3:hover:after{
+   content: attr(data-hover);
+   font-size:24px;
  }
 
 #sec1 {
-  height:200vh;
+  height:250vh;
   display: flex;
 }
 
@@ -178,20 +223,28 @@ body {
 
 .sec1sideB {
   width: 50vw;
-  height: 200vh;
+  height: 250vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0AD699
+  background-color: #0AD699;
+
+
 }
 
 .sec1sideB div{
-  height:200vh;
+  height:250vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;}
+
+#line1{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-left: 2px solid black;
+  height:425px;
 }
 
 #introAT {
@@ -229,23 +282,21 @@ body {
 
 
 #sec2 {
-  height:250vh;
+  height:150vh;
   display: flex;
 }
 
-.sec2sideA{
+.sec2sideB{
   width: 50vw;
-  height: 250vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items: left;
   background-color: #629FFF;
-
-
 }
 
-.sec2sideB {
+.sec2sideA {
   height:100vh;
   width: 50vw;
 
@@ -299,29 +350,45 @@ body {
 }
 
 #sec3 {
-  height:150vh;
+  height:200vh;
   display: flex;
 }
 
 .sec3sideA {
   height:100vh;
   width: 50vw;
-  background-image: url("https://d.newsweek.com/en/full/1580394/dhauladhar-mountain-range.jpg");
-  background-position: center;
-  background-size: cover;
 
   position:sticky;
   position: -webkit-sticky;
   top:0;
-
 }
-.sec3sideB{
+
+#sec3Image {
+  height:100vh;
+  width: 50vw;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/wLpoixIFosPi_yTm4fahPv6V4sg=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18330178/BORDER_PATROL_072419_17.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 50%;
+}
+
+#sec3Text {
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  margin-top: 40%
+}
+
+.sec3sideB {
   width: 50vw;
   height: 200vh;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
-  align-items: center;
+  align-items: left;
   background-color: #629FFF;
 }
 

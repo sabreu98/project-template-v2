@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Lemonade|Some Good News</title>
+	<title>Lemonade|Some Good News — Issue 01</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="" type="image/x-icon">
 	<!-- meyer-reset is a special css library that overrides all the ugle default css styles that come with html5 -->
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
 </head>
+
 <body>
-	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-	<header>
-		<!-- header, h1, logo etc content -->
-		<h1>LEMONADE</h1>
-	</header>
 
-	<nav>
-		<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
-		<ul>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-		</ul>
-	</nav>
+	<video autoplay muted loop id="landingVideo">
+    <source src="images/1_1.mp4" type="video/mp4">
+  </video>
 
-	<main>
-		<blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus soluta vero fugiat saepe, tempore laboriosam nemo pariatur maxime sunt rerum."</blockquote>
-	<!-- Main content here -->
-		<div class="grid">
-			<div>Column 1</div>
-			<div>Column 2</div>
-		</div>
-	</main>
-	<footer>
-		<!-- footer content here -->
-		&copy; Team Awesome
-	</footer>
-	<!-- link for jquery -->
+	<div class="wrapper">
+        <div class="logo">
+      	<h1 id="logoLemonade">LEMONADE</h1>
+				<h1 id="logoSGN">SOME GOOD NEWS</h1>
+        </div>
+
+				<div class="issueHeader">
+				<h1 id="issueNo">Issue No. 01</h1>
+				<h1 id="issueName">Alone Together</h1>
+				</div>
+
+				<div class="openButton">
+				<a href="page1.html" class="btn">OPEN</a>
+				</div>
+  </div>
+
 	<script
-  	src="https://code.jquery.com/jquery-3.4.1.min.js"
-  	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  	crossorigin="anonymous"></script>
-  	<!-- link for your script file -->
-  	<script src="js/script.js"></script>
+	  	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  	crossorigin="anonymous"></script>
+
+	  	<!-- link for your script file -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+	  <script src="script.js"></script>
 </body>
 </html>

@@ -103,6 +103,10 @@ body {
 
 
 
+.nav {
+  display: flex;
+  flex-direction: column;
+}
 
 
 #marquee {
@@ -114,27 +118,42 @@ body {
 }
 
 .marqueeDiv {
-  position:sticky;
-  position: -webkit-sticky;
-  top:0;
+  width: 50vw;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
+  padding-top: 24px;
+  position: fixed;
  }
 
- .nav {
-   position:sticky;
-   position: -webkit-sticky;
-   top:24px;
-   z-index: 1;
-   margin-left: 861px;
-   margin-top: -69px;
- }
+.nav1 {
+  width: 50vw;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  margin-left: 650px;
+}
+
+#logoImage {
+  padding-left: 12px;
+  padding-top: 24px;
+
+}
 
  .navStyle-1 {
    font-family: 'Helvetica Neue LT Std 53 Extended';
    font-size: 24px;
    text-decoration: none;
    color: white;
-   padding: 5px;
+   padding-top: 24px;
+   padding-right: 12px;
+
  }
 
  .navStyle-1:hover {
@@ -153,8 +172,11 @@ body {
    font-size: 24px;
    text-decoration: none;
    color: white;
-   padding: 5px;
+   padding-top: 24px;
+   padding-right: 12px;
+
  }
+
 
  .navStyle-2:hover {
    transition:;
@@ -171,8 +193,10 @@ body {
    font-size: 24px;
    text-decoration: none;
    color: white;
-   padding: 5px;
- }
+   padding-top: 24px;
+   padding-right: 12px;
+
+  }
 
  .navStyle-3:hover {
    transition:;
@@ -183,6 +207,9 @@ body {
    content: attr(data-hover);
    font-size:24px;
  }
+
+.navStyle-4 {
+}
 
 #sec1 {
   height:250vh;
@@ -282,13 +309,13 @@ body {
 
 
 #sec2 {
-  height:150vh;
+  height:225vh;
   display: flex;
 }
 
 .sec2sideB{
   width: 50vw;
-  height: 150vh;
+  height: 225vh;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
@@ -350,7 +377,7 @@ body {
 }
 
 #sec3 {
-  height:200vh;
+  height:180vh;
   display: flex;
 }
 
@@ -384,12 +411,12 @@ body {
 
 .sec3sideB {
   width: 50vw;
-  height: 200vh;
+  height: 180vh;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items: left;
-  background-color: #629FFF;
+  background-color: #FFD954;
 }
 
 #infoEm {
@@ -423,6 +450,7 @@ body {
   text-align: center;
   padding-top: 10px;
   margin-left:55px;
+  margin-top: -20px;
 }
 
 .btn2:hover {
@@ -435,7 +463,47 @@ body {
   padding-top: 18vw;
 }
 
+#sec4{
+  height:220vh;
+  display: flex;
+}
+.sec4sideA {
+  height:100vh;
+  width: 50vw;
 
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+}
+
+#sec4Image {
+  height:100vh;
+  width: 50vw;
+  background-image: url("https://media.newyorker.com/photos/5e7bae4b358dde0009f1aa0e/master/pass/Blitzer-Stay-Homas.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 50%;
+}
+
+#sec4Text {
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  margin-top: 40%
+}
+
+.sec4sideB {
+  width: 50vw;
+  height: 220vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: left;
+  background-color: #AFFF7D;
+}
 
 @media only screen and (min-width:768px) {
 

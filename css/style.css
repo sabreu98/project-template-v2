@@ -165,6 +165,7 @@ body {
    transition: .2;
    content: attr(data-hover);
    font-size:24px;
+   color:black;
  }
 
  .navStyle-2 {
@@ -186,6 +187,7 @@ body {
  .navStyle-2:hover:after{
    content: attr(data-hover);
    font-size:24px;
+   color:black;
  }
 
  .navStyle-3 {
@@ -206,6 +208,8 @@ body {
  .navStyle-3:hover:after{
    content: attr(data-hover);
    font-size:24px;
+   color:black;
+
  }
 
 .navStyle-4 {
@@ -309,24 +313,24 @@ body {
 
 
 #sec2 {
-  height:225vh;
+  height:250vh;
   display: flex;
 }
 
 .sec2sideB{
   width: 50vw;
-  height: 225vh;
+  height: 250vh;
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
-  align-items: left;
+  justify-content:center;
+  align-items: center;
   background-color: #629FFF;
 }
 
 .sec2sideA {
   height:100vh;
   width: 50vw;
-
+overflow: hidden;
   position:sticky;
   position: -webkit-sticky;
   top:0;
@@ -338,7 +342,7 @@ body {
   background-image: url("https://d.newsweek.com/en/full/1580394/dhauladhar-mountain-range.jpg");
   background-position: center;
   background-size: cover;
-  opacity: 70%;
+  opacity: 60%;
 }
 
 #sec2Text {
@@ -377,7 +381,7 @@ body {
 }
 
 #sec3 {
-  height:180vh;
+  height:210vh;
   display: flex;
 }
 
@@ -396,7 +400,7 @@ body {
   background-image: url("https://cdn.vox-cdn.com/thumbor/wLpoixIFosPi_yTm4fahPv6V4sg=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18330178/BORDER_PATROL_072419_17.jpg");
   background-position: center;
   background-size: cover;
-  opacity: 50%;
+  opacity: 40%;
 }
 
 #sec3Text {
@@ -411,11 +415,11 @@ body {
 
 .sec3sideB {
   width: 50vw;
-  height: 180vh;
+  height: 210vh;
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
-  align-items: left;
+  justify-content:center;
+  align-items: center;
   background-color: #FFD954;
 }
 
@@ -424,7 +428,7 @@ body {
   font-size: 24px;
   text-align: center;
   padding-top: 280px;
-  padding-left: 120px;
+  padding-left: 0px;
   width:70%;
 }
 
@@ -446,7 +450,7 @@ body {
   font-size: 18px;
   text-decoration: none;
   font-family: 'Helvetica Neue LT Std 55 Roman';
-  -webkit-text-fill-color: black;
+  color: black;
   text-align: center;
   padding-top: 10px;
   margin-left:55px;
@@ -455,7 +459,9 @@ body {
 
 .btn2:hover {
   transition: .5s;
-  background-color:#0AD699
+  background-color:black;
+  color: white;
+
 }
 
 .openButton {
@@ -482,7 +488,6 @@ body {
   background-image: url("https://media.newyorker.com/photos/5e7bae4b358dde0009f1aa0e/master/pass/Blitzer-Stay-Homas.jpg");
   background-position: center;
   background-size: cover;
-  opacity: 50%;
 }
 
 #sec4Text {
@@ -500,11 +505,85 @@ body {
   height: 220vh;
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
-  align-items: left;
+  justify-content:center;
+  align-items:center;
   background-color: #AFFF7D;
 }
+#spainVideo {
+width: 50vw;
+margin-top: px;
+display: flex;
 
+position:sticky;
+position: -webkit-sticky;
+}
+
+#indiaVideo {
+width: 50vw;
+margin-top: -150px;
+display: flex;
+overflow: hidden;
+object-fit: fill;
+position:sticky;
+position: -webkit-sticky;
+}
+
+#sec5{
+  height:220vh;
+  display: flex;
+}
+
+.sec5sideA {
+  height:100vh;
+  width: 50vw;
+
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+  background-color: #black;
+}
+#sec5Text {
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  margin-top: 40%
+}
+
+.sec5sideB {
+  width: 50vw;
+  height: 220vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background-color: #FF5D5D;
+}
+
+#em{
+  text-decoration: none;
+  font-family: 'Helvetica Neue LT Std 53 Extended';
+  color:white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#em:hover{
+  transition: .5s;
+  color:black;
+
+}
+#info2 {
+  font-family: 'Helvetica Neue LT Std 55 Roman';
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  padding: 55px;
+  padding-top: 50px;
+  width: 70%;
+}
 @media only screen and (min-width:768px) {
 
 }
